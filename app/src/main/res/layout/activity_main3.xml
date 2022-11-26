@@ -97,6 +97,13 @@
             android:hint="password"
             >
         </EditText>
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            >
+        </ProgressBar>
         <Button
             android:id="@+id/btnsubmit"
             android:layout_width="match_parent"
